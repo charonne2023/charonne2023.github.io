@@ -41,7 +41,7 @@ function handleToDoSubmit(event){
         id:Date.now(),
     };
     toDos.push(newToDoObj);
-    paintToDo(newToDo);
+    paintToDo(newToDoObj);
     saveToDos();
 
 }
